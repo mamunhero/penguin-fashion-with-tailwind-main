@@ -4,10 +4,127 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>penguin-fashion-with-tailwind-main</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700;800&family=Poppins:ital,wght@0,500;0,600;0,800;1,600&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+  <style>
+    .font-babes{
+      font-family: babes neue;
+    }
+  .font-roboto{
+    font-family: 'Roboto', sans-serif;
+  }
+  </style>
 </head>
 <body>
-  <header></header>
-  <main></main>
+  <header class="bg-amber-100 py-20 px-4 md:px-32">
+    <!-- banner section start here -->
+    <div class="flex flex-col md:flex-row justify-between items-center font-babes">
+      <div class="space-y-3">
+        <h1 class="text-7xl uppercase"><span class="text-[#fabe4c]">Be the Penguins</span>
+          <br>
+          of winter</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum doloribus eius iste consectetur omnis inventore, culpa, veniam unde obcaecati soluta repellendus dolore. Id cumque, consectetur inventore enim perferendis possimus similique!</p>
+        <button class="px-9 py-4 bg-gradient-to-r from-[#a4bc46] to-[#85a019]  uppercase rounded-xl text-white font-medium flex items-center"><img class="w-4 scroll-mr-2" src="images/icons/shopping-cart 1.png" alt="">Buy Now</button>
+      </div>
+      <div>
+        <img src="images/model.png" alt="banner-model-img">
+      </div>
+    </div>
+  </header>
+  <main  class="max-w-7xl mx-auto">
+    <!-- women jacket section -->
+    <section class="py-12">
+      <h3 class="text-5xl font-babes pb-3">Woman Jacets</h3>
+      <!-- jacket-container  -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 font-roboto">
+        <!-- jacket-1 -->
+        <div class="space-y-3 drop-shadow-lg">
+            <div class="bg-[#f1f1f1;] p-5 rounded-2xl">
+              <img src="images/jacket-1.png" alt="">
+            </div>
+            <h4 class="text-2xl font-bold">Yellow Coat Jackets</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, suscipit.</p>
+            <div class="flex justify-between items-center">
+              <h3 class="text-4xl font-900 text-orange-400">$234</h3>
+              <button class="px-9 py-4 bg-gradient-to-r from-[#a4bc46] to-[#85a019]  uppercase rounded-xl text-white font-medium flex items-center"><img class="w-4 scroll-mr-2" src="images/icons/shopping-cart 1.png" alt="">Buy Now</button>
+            </div>
+        </div>
+        <!-- jacket-2 -->
+        <div class="space-y-3 drop-shadow-lg">
+          <div class="bg-[#f1f1f1;] p-5 rounded-2xl">
+            <img src="images/jacket-2.png" alt="">
+          </div>
+          <h4 class="text-2xl font-bold">Yellow Coat Jackets</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, suscipit.</p>
+          <div class="flex justify-between items-center">
+            <h3 class="text-4xl font-900 text-orange-400">$234</h3>
+            <button class="px-9 py-4 bg-gradient-to-r from-[#a4bc46] to-[#85a019]  uppercase rounded-xl text-white font-medium flex items-center"><img class="w-4 scroll-mr-2" src="images/icons/shopping-cart 1.png" alt="">Buy Now</button>
+          </div>
+      </div>
+      <!-- jacket-3 -->
+      <div class="space-y-3 drop-shadow-lg">
+        <div class="bg-[#f1f1f1;] p-5 rounded-2xl">
+          <img src="images/jacket-3.png" alt="">
+        </div>
+        <h4 class="text-2xl font-bold">Yellow Coat Jackets</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, suscipit.</p>
+        <div class="flex justify-between items-center">
+          <h3 class="text-4xl font-900 text-orange-400">$234</h3>
+          <button class="px-9 py-4 bg-gradient-to-r from-[#a4bc46] to-[#85a019]  uppercase rounded-xl text-white font-medium flex items-center"><img class="w-4 scroll-mr-2" src="images/icons/shopping-cart 1.png" alt="">Buy Now</button>
+        </div>
+    </div>
+      </div>
+    </section>
+    <section class="py-12">
+      <!-- man jacket section -->
+      <div>
+        <div>
+          <h3 class="text-5xl font-babes text-[#363958] pb-3">Man Jacket</h3>
+        </div>
+        <div class=" grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-7 font-roboto">
+          <div class="space-y-3 drop-shadow-lg">
+            <div class="bg-[#f1f1f1] p-5 rounded-2xl">
+              <img src="images/jacket-4.png" alt="">
+            </div>
+            <h4 class="text-2xl font-700 text-[#363958]">Snowboard Jacket Mens</h4>
+            <p class="text-1xl font-400 text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the 
+              printing and typesetting industry.</p>
+            <div class="flex justify-between items-center">
+              <h3 class="text-3xl font-900 text-[#FABE4C]">$234</h3>
+              <button class="px-9 py-4 bg-gradient-to-r from-[#a4bc46] to-[#85a019]  uppercase rounded-xl text-white font-medium flex items-center"><img class="w-4 scroll-mr-2" src="images/icons/shopping-cart 1.png" alt="">Buy Now</button>
+            </div>
+          </div>
+          <div class="space-y-3 drop-shadow-lg">
+            <div class="bg-[#f1f1f1] p-5 rounded-2xl">
+              <img src="images/jacket-5.png" alt="">
+            </div>
+            <h4 class="text-2xl font-700 text-[#363958]">Man Leather Jackets</h4>
+            <p class="text-1xl font-400 text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the 
+              printing and typesetting industry.</p>
+            <div class="flex justify-between items-center">
+              <h3 class="text-3xl font-900 text-[#FABE4C]">$234</h3>
+              <button class="px-9 py-4 bg-gradient-to-r from-[#a4bc46] to-[#85a019]  uppercase rounded-xl text-white font-medium flex items-center"><img class="w-4 scroll-mr-2" src="images/icons/shopping-cart 1.png" alt="">Buy Now</button>
+            </div>
+          </div>
+          <div class="space-y-3 drop-shadow-lg">
+            <div class="bg-[#f1f1f1] p-5 rounded-2xl">
+              <img src="images/jacket-6.png" alt="">
+            </div>
+            <h4 class="text-2xl font-700 text-[#363958]">Man Casual Jackets</h4>
+            <p class="text-1xl font-400 text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the 
+              printing and typesetting industry.</p>
+            <div class="flex justify-between items-center">
+              <h3 class="text-3xl font-900 text-[#FABE4C]">$234</h3>
+              <button class="px-9 py-4 bg-gradient-to-r from-[#a4bc46] to-[#85a019]  uppercase rounded-xl text-white font-medium flex items-center"><img class="w-4 scroll-mr-2" src="images/icons/shopping-cart 1.png" alt="">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
   <footer></footer>
 </body>
 </html>
